@@ -4,7 +4,7 @@ import time
 import json
 
 #webdriverのパス
-driver=webdriver.Chrome("C:\python\chromedriver.exe")
+driver=webdriver.Chrome("./path/chromedriver.exe")
 #アクセス
 driver.get("https://google.co.jp")
 # 何かスクレイピング
